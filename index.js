@@ -12,13 +12,13 @@ document.querySelector('#btn').addEventListener("click", function(){
   let yahlitlangan = Math.floor(tasodifiySon) + 1  // 89.9 = 89 + 1
 
   if (yahlitlangan > 90) {
-     natija = "Dostlik darajasi:" + yahlitlangan +  "Yaqin dostlarmiz"
+     natija = "Dostlik darajasi:" + yahlitlangan + "% Yaqin dostlarmiz"
   } else if (yahlitlangan > 50) {
-  natija = "Dostlik darajasi:" + yahlitlangan +  "Norm"
+  natija = "Dostlik darajasi:" + yahlitlangan +  "% Norm"
   } else if(yahlitlangan > 20) {
-   natija = "Dostlik darajasi:" + yahlitlangan +  "Yaqin dost emasmiz"
+   natija = "Dostlik darajasi:" + yahlitlangan +  "% Yaqin dost emasmiz"
   } else {
-    natija = "Dostlik darajasi:" + yahlitlangan +  "Dost emasmiz"
+    natija = "Dostlik darajasi:" + yahlitlangan +  "% Dost emasmiz"
   }
 
   document.querySelector('h2').innerHTML = natija
